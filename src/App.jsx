@@ -1,7 +1,17 @@
+import TituloPrincipal from "./components/TituloPrincipal";
 
 function App() {
+  // aqui va toda la logica
+
   return (
-    <h1>Primera APP</h1>
+    // aqui va todo el maquetado y un poquito de js
+    <>
+      {/*Existen dos formas de escribir un componente, como etiqueta simple o doble */}
+      <TituloPrincipal />
+      {/* <TituloPrincipal></TituloPrincipal> */}
+   
+      <hr />
+    </>
   );
 }
 
