@@ -1,5 +1,6 @@
 import TituloPrincipal from "./components/TituloPrincipal";
 import HolaMundo from "./components/HolaMundo";
+import Contador from "./components/Contador";
 
 function App() {
   // aqui va toda la logica
@@ -12,8 +13,8 @@ function App() {
       <TituloPrincipal comisionActual={comision} />
       <HolaMundo></HolaMundo>
       {/* <TituloPrincipal></TituloPrincipal> */}
-
       <hr />
+      <Contador></Contador>
     </>
   );
 }
